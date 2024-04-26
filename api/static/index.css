@@ -1,0 +1,116 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+
+    background-color: #011C27;
+    color: aliceblue;
+
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+}
+
+nav {
+    height: fit-content;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+li {
+    display: inline;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+main {
+    margin: 0;
+    padding: 0;
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-weight: 500;
+}
+
+.navbar-item {
+    color: aliceblue;
+    text-decoration: none;
+    margin: 10px;
+}
+
+form {
+    width: 30%;
+    height: auto;
+    margin: 0;
+    padding: 15px;
+    padding-bottom: 20px;
+    border-style: solid;
+    border-radius: 10px;
+
+    background-color: #1b2531;
+}
+
+.input-group {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#urlLabel {
+    font-weight: 300;
+}
+
+#url {
+    width: calc(100% - 100px); /* Adjust as needed */
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #5F758E;
+    color: rgb(198, 202, 206);
+    font-weight: 300;
+    font-size: 16px;
+}
+
+#url::placeholder {
+    color: rgb(142, 153, 162);
+}
+
+#submit-button {
+    margin-left: 10px;
+    flex-shrink: 0; /* Prevent the button from shrinking */
+    width: auto; /* Let the button size be determined by its content */
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #6897d1;
+
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    color: aliceblue;
+}
