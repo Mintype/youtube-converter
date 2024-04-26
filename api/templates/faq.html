@@ -4,31 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YouTube Converter</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
+    <nav>
+        <ul>
+            <li><a class="navbar-item" href="/">Home</a></li>
+            <li><a class="navbar-item" href="/about">About</a></li>
+            <li><a class="navbar-item" href="/faq">FAQ</a></li>
+        </ul>
+    </nav>
     <h1 class="title">Frequently Asked Questions</h1>
-    <h2>How do I use this site?</h2>
-    <p>
-        This site allows you to convert YouTube videos to MP4 format.
-        Simply enter the YouTube video URL and click "Convert".
-    </p>
-    <h2>How do I get a YouTube video URL?</h2>
-    <p>
-        You can get a YouTube video URL by right-clicking on the video and selecting "Copy video URL".
-    </p>
-    <h2>What is MP4 format?</h2>
-    <p>
-        MP4 format is a video format that can be played on a wide range of devices.
-    </p>
-    <h2>What is the difference between MP4 and MP3 format?</h2>
-    <p>
-        MP4 format is a video format that can be played on a wide range of devices.
-        MP3 format is an audio format that can be played on a wide range of devices.
-    </p>
-    <h2>What is the difference between MP4 and AVI format?</h2>
-    <p>
-        MP4 format is a video format that can be played on a wide range of devices.
-        AVI format is an audio format that can be played on a wide range of devices.
-    </p>
+    <main>
+        <div class="faq">
+            <h2 class="faq-title">How do I use this site?</h2>
+            <p class="faq-info">
+                This site allows you to convert YouTube videos to MP4 format.
+                Simply enter the YouTube video URL and click "Convert".
+            </p>
+            <h2 class="faq-title">How do I get a YouTube video URL?</h2>
+            <p class="faq-info">
+                You can get a YouTube video URL by right-clicking on the video and selecting "Copy video URL".
+            </p>
+            <h2 class="faq-title">What is MP4 format?</h2>
+            <p class="faq-info">
+                MP4 format is a video format that can be played on a wide range of devices.
+            </p>
+            <h2 class="faq-title">What is the difference between MP4 and MP3 format?</h2>
+            <p class="faq-info">
+                MP4 format is a video format that can be played on a wide range of devices.
+                MP3 format is an audio format that can be played on a wide range of devices.
+            </p>
+        </div>
+    </main>
 </body>
 </html>

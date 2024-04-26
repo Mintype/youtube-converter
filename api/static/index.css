@@ -122,4 +122,31 @@ form {
     z-index: 1000;
     width: 50px;
     height: 50px;
-  }  
+}
+
+.faq {
+    margin: 0;
+    padding: 15px;
+    border-style: solid;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    width: 40%;
+}
+
+.faq-title {
+    margin: 7.5px;
+    padding: 0;
+    text-align: center;
+    font-weight: 500;
+}
+
+.faq-info {
+    margin: 7.5px;
+    padding: 0;
+    padding-bottom: 15px;
+    text-align: center;
+    font-weight: 300;
+}
